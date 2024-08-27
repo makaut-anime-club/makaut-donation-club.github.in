@@ -1,0 +1,131 @@
+<html>
+<head>
+<style>
+    @font-face {
+            font-family: 'CustomFont';
+            src: 
+                 url('../DONATIONS/assets2/dragon.ttf') format('truetype');
+            font-weight: lighter;
+            font-style: normal;
+            font-size: 80px;
+        }
+
+body {
+    font-family: 'CustomFont', Arial, sans-serif;
+background-color: #F9F16A; /* Yellow background */
+color: #333; /* Dark gray text for readability */
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.navbar {
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.7); /* Blackish transparent background */
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+z-index: 1000;
+}
+.navbar .logo {
+height: 50px;
+}
+.navbar .btn-donate {
+background-color: #F9F16A; /* Button color */
+font-size: 20px;
+color: #212121;
+font-size: 18px;
+padding: 10px 50px;
+border-radius: 25px;
+border: 0;
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+.navbar .btn-donate:hover {
+background-color: #d6cd3e; /* Slightly darker yellow on hover */
+
+}
+.container {
+width: 80%;
+max-width: 1200px;
+margin: 100px auto 20px auto; /* Adjusted margin-top for navbar space */
+padding: 20px;
+background-color: #FFFFFF; /* White background for content */
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 55px;
+color: #212121; /* Dark gray for heading */
+text-align: center;
+}
+p {
+font-size: 40px;
+line-height: 1.6;
+margin: 20px 0;
+text-align: center;
+}
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+.gallery img {
+max-width: 100%;
+height: 20%;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.qr-code {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px 0;
+
+}
+</style>
+
+   </head>  
+   <body>  
+      <div class="navbar">  
+        <img src="../DONATIONS/assets2/logo.png" alt="Akimatsuri Logo" class="logo"> <!-- Replace with your logo -->  
+        <a href="#mySection" class="btn-donate">Donate For The Club</a> <!-- Button links to donation section -->  
+      </div>  
+  
+      <div class="container">  
+        <h1>Support Our Akimatsuri Event</h1>  
+        <p>  
+           We are excited to invite you to our annual Akimatsuri celebration, where tradition meets creativity. As we prepare for this year's event, we are working hard to make it a memorable experience for everyone.Your generous donations will help us bring this vision to life, from funding traditional performances to supporting art installations. Every contribution counts and brings us one step closer to making this event a success.  
+           Thank you for being a part of our journey!  
+        </p>  
+  
+        <div class="gallery">  
+           <!-- Add your images and videos here -->  
+           <img src="../DONATIONS/assets2/WhatsApp Image 2024-08-27 at 22.46.55_2fa34f22.jpg" alt="Work in progress 1">  
+           <video src="../DONATIONS/assets2/VID-20240611-WA0003.mp4" controls></video>  
+           <img src="../DONATIONS/assets2/WhatsApp Image 2024-08-27 at 22.46.55_60486b0e.jpg" alt="Work in progress 2">  
+           <video src="../DONATIONS/assets2/VID-20240611-WA0007.mp4" controls></video>  
+           <img src="../DONATIONS/assets2/WhatsApp Image 2024-08-27 at 22.46.56_94c9f781.jpg" alt="Work in progress 3">  
+ <video src="../DONATIONS/assets2/WhatsApp Video 2024-08-27 at 22.49.32_948151c6.mp4" controls></video>  
+        </div>
+
+
+ <h1>..........DONATION QR-CODE.........</h1>
+ <div id="mySection" class="qr-code">
+                    <!-- Space reserved for QR Code -->
+                    <img src="../DONATIONS/assets2/qr-code.jpg" alt="Scan to Donate">
+                </div>
+            </div>
+        </body>
+    </html>
+
